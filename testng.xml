@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="atf.listeners.Listener"></listener>
+    </listeners>
+    <test thread-count="2"  parallel="methods" name="/Users/zeeshan/Selenium Automation/AutomationTestingFramework">
+
+        <classes>
+            <class name="atf.tests.HomePageTest"/>
+            <class name="atf.tests.LoginOrangeHRM"/>
+        </classes>
+    </test>
+</suite>
